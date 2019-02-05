@@ -1,0 +1,119 @@
+ body{
+        background-image: url(image/bg.png);
+        background-repeat: repeat;
+    }
+    .navbar{
+        margin-bottom: 0px;
+    }
+    .navbar-custom{
+        background-color: #BFC6CB;
+    }
+    .navbar-brand{
+        color: #000000;
+        font-variant: small-caps;
+    }
+    .navbar-nav li a{
+        color: #000000;
+        font-variant: small-caps;
+        font-size: 18px;
+    }
+    .navbar-toggle{
+        background-color: white; 
+    }
+    .navbar-toggle .icon-bar{
+        margin: 0px;
+        background-color: black;
+    }
+    
+
+    .head{
+        background-color: #BFC6CB;
+        padding: 10px;
+        font-size: 25px;
+        font-variant: small-caps;
+    }
+
+    .shop img{
+        margin: 5px;
+        width: 250px;
+        height: 200px;
+    }
+
+
+
+
+@media screen and (max-width: 768px){
+body{
+    font-size: 10px;
+ }
+.navbar{
+    min-height: 40px;
+}
+.navbar-nav li a{
+    font-size: 15px;
+}
+
+#main{
+    position: absolute;
+    right: 0px;
+    top: 0px; 
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 30px;
+  margin-left: 0px;
+}
+
+.carousel-control{
+    color: white;
+    font-size: 35px;
+}
+.shop img{
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+}
+.head{
+    background-color: #BFC6CB;
+    padding: 8px;
+    font-size: 15px;
+    font-variant: small-caps;
+}
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
