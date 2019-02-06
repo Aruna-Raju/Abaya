@@ -56,6 +56,9 @@
     .card-image a:hover{
         background-color: #B67593;
     }
+    #main a .fas{
+        color: black;
+    }
 
 
 
