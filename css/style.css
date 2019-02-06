@@ -25,26 +25,43 @@
         background-color: black;
     }
     
-
     .head{
         background-color: #BFC6CB;
         padding: 10px;
         font-size: 25px;
         font-variant: small-caps;
     }
-
     .shop img{
         margin: 5px;
         width: 250px;
         height: 200px;
     }
-
+    .card{
+        position: relative;
+    }
+    .card-image{
+        position: relative;
+    }
+    .card-image a{
+        position: absolute;
+        color: white;
+        background-color: #404040;
+        font-size:15px;
+        text-align:center;
+        width:100%;
+        padding:5px 0;
+        bottom:0;
+        text-decoration: none;
+    }
+    .card-image a:hover{
+        background-color: #B67593;
+    }
 
 
 
 @media screen and (max-width: 768px){
 body{
-    font-size: 10px;
+    font-size: 12px;
  }
 .navbar{
     min-height: 40px;
