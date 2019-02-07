@@ -21,28 +21,33 @@
 
     <style type="text/css">
         
-        .carousel-control{
-            color: black;
-        }
-        .carousel-control:focus{
-            color: black;
-        }
-        .carousel-inner{
-            position: relative;
 
-        }
+    .carousel-control{
+        color: black;
+    }
+    .carousel-control:focus{
+        color: black;
+    }
+    .carousel-control:hover{
+        color: black;
+    }
+    .carousel-inner{
+        position: relative;
+    }
        
-       .carousel-indicators{
-            position: absolute;
-            bottom: -10px;
+    .carousel-indicators{
+        position: absolute;
+        bottom: -10px;
            
-        }
-        .carousel-indicators li{
-           background-color: black;
-        }
-        .carousel-indicators .active{
-            background-color: #B67593;
-        }
+    }
+    .carousel-indicators li{
+        background-color: black;
+    }
+    .carousel-indicators .active{
+        background-color: #B67593;
+    }
+
+        
        
 
     </style>
@@ -56,7 +61,7 @@
         <nav class="navbar navbar-custom navbar-fixed-top hidden-xs">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img class="img-responsive img-thumbnail" src="image/jikhawa_logo.jpg" width="120px"></a>
+                    <a class="navbar-brand" href="index.html"><img class="img-responsive img-thumbnail" src="image/jikhawa_logo.jpg" width="120px"></a>
                 </div>
                 <ul class="nav navbar-nav navbar-right menu">
                     <li><a href="#">Abaya</a></li>
@@ -81,7 +86,7 @@
             </div>
 
             <div class="navbar-header">
-                <a class="navbar-brand" href="" style="padding-bottom: 0px; margin-bottom: 0px;"><img class="img-responsive img-thumbnail" src="image/jikhawa_logo.jpg" width="80px"></a>
+                <a class="navbar-brand" href="index.html" style="padding-bottom: 0px; margin-bottom: 0px;"><img class="img-responsive img-thumbnail" src="image/jikhawa_logo.jpg" width="80px"></a>
                 <div id="main" style="margin: 10px;">
                     <a href="cart_page.html"><i class="fas fa-shopping-bag fa-2x"></i></a>
                     <span style="font-size:20px; cursor:pointer; margin: 5px;" onclick="openNav()">&#9776; </span>
@@ -143,15 +148,18 @@
             <div class="row" style="margin: 15px 15px;">
                 <div class="col-xs-12 col-sm-6" style="box-shadow: 0 0 3px 2px #CACACA;">
                     <div class="row" style="padding-top: 15px;">
-                        <div class="col-xs-7">
-                            <span><b>DENIM ABAYA 1</b></span><br>
-                            <span>In Stock</span><br>
-                           <span><del><i class="fas fa-rupee-sign"></i>1000</del> <i class="fas fa-rupee-sign"></i>800</span><br>
-                            <span>Save 12%</span>
+                        <div class="col-xs-8">
+                            <span><b>DENIM ABAYA</b></span><br>
+                            <span style="color: grey">In Stock</span><br>
+                           <span><i class="fas fa-rupee-sign"></i>800</span><br>
+                           <del style="color: grey"><i class="fas fa-rupee-sign"></i>1000</del><br>
+                            <span style="color: red">Save 12%</span>
                         </div>
-                        <div class="col-xs-5">
-                            <b>QUANTITY</b><br>
-                            <!--<input class="input-xs" type="number" name="quantity">-->
+                        <div class="col-xs-4">
+                            <div class="form-group">
+                              <label for="inputdefault">QUANTITY:</label>
+                              <input class="form-control" id="inputdefault" type="number" size="5">
+                            </div>
                         </div>
                     </div>
                     <hr style="margin-top: 5px; margin-bottom: 5px;">
@@ -177,11 +185,11 @@
                     <p>Return within "15 days". For detailed Information</p>
                 </div>
             </div>
-            <div class="col-xs-6">
-                <button type="button" class="btn" onclick="window.location.href='checkout.html'" style="width: 100%; background-color: black; margin: 0px; border-radius: 0px;">BUY NOW</button>
+            <div class="col-xs-6" style="margin: 0px; padding: 0px;">
+                <button type="button" class="btn" onclick="window.location.href='checkout.html'" style="width: 100%; background-color: black; border-radius: 0px;">BUY NOW</button>
             </div>
-            <div class="col-xs-6">
-                <button type="button" class="btn" onclick="window.location.href='cart_page.html'" style="width: 100%; background-color: grey; margin: 0px; border-radius: 0px;">ADD TO CART</button>
+            <div class="col-xs-6" style="margin: 0px; padding: 0px;">
+                <button type="button" class="btn" onclick="window.location.href='cart_page.html'" style="width: 100%; background-color: grey; border-radius: 0px;">ADD TO CART</button>
             </div>
         </div>
     </div>

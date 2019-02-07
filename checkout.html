@@ -34,7 +34,7 @@
 
     <div class="container">
         <div class="row" style="box-shadow: 0 0 3px 2px #CACACA; margin: 10px 0px;">
-            <center><span><i class="fas fa-plus-circle"></i>Add Address</span></center>
+            <center><button type="button" class="btn" onclick="window.location.href='address.html'" style="background: none;"><i class="fas fa-plus-circle"></i>Add Address</button></center>
         </div>
 
         <div class="row" style="box-shadow: 0 0 3px 2px #CACACA; margin: 0px; ">
@@ -45,25 +45,41 @@
                 <u><b>DENIM ABAYA 1</b></u><br><br>
                 <span>Color: Black & Gold Black inner Dress(full sleeve): M kaftan length: 52 inches(132cm) Matching Hijab and Band : Add Band : Add Band Matching Brooch : Add Brooch</span>
                 <br><br>
-                <span class="col-xs-6"><i class="fas fa-rupee-sign"></i>1780</span>
-                <span class="col-xs-6">
-                    <div class="input-group">
-                        <label>Quantity:</label>
-                                        
+                <span class="col-xs-4 col-sm-4"><i class="fas fa-rupee-sign"></i>1780</span>
+                <span class="col-xs-6 col-sm-3">
+                    <div class="form-group">
+                        <label for="inputdefault">QUANTITY:</label>
+                        <input class="form-control" id="inputdefault" type="number" size="5">
                     </div>
                 </span>
             </div>
         </div>
         <br>
-        <u><b>PRICE DETAILS:</b></u><br><hr>
-        <span class="col-xs-6">
-            <label>ITEM</label><hr>
-            <label>Total Payment</label>
-        </span>
-        <span class="col-xs-6">
-            <label><i class="fas fa-rupee-sign"></i>1780</label><hr>
-            <label><i class="fas fa-rupee-sign"></i>1780</label>
-        </span>
+       
+        <div class="row">
+            <div class="col-xs-12">
+                <u><b>PRICE DETAILS:</b></u><br><hr>
+                <div class="col-xs-6">
+                    <label>ITEM</label><hr>
+                    <label>Total Payment</label>
+                </div>
+                <div class="col-xs-6">
+                    <label><i class="fas fa-rupee-sign"></i>1780</label><hr>
+                    <label><i class="fas fa-rupee-sign"></i>1780</label>
+                </div>
+            </div>
+        </div>
+            <br><br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-6" style="margin: 0px; padding: 0px;">
+                    <button type="button" class="btn" style="width: 100%; background-color: grey; color: white; border-radius: 0px;">Total (1) <br> <i class="fas fa-rupee-sign"></i>1780</button>
+                </div>
+                <div class="col-xs-6" style="margin: 0px; padding: 0px;">
+                    <button type="button" class="btn" onclick="window.location.href='payment.html'" style="width: 100%; background-color: black; color: white; border-radius: 0px;"><br>PAYMENT</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 

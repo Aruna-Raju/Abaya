@@ -27,12 +27,29 @@
         <div class="empty" style="height: 50px;"></div>
         <nav class="navbar navbar-custom navbar-fixed-top" style="font-size: 18px; padding-top: 4px;">
             <div class="col-xs-3"><i class="fas fa-angle-left"></i></div>
-            <div class="col-xs-6"><center>MY CART</center></div>
+            <div class="col-xs-6"><center>CHECKOUT</center></div>
             <div class="col-xs-3"></div>
         </nav>
     </div>
 
     <div class="container">
+        <div class="row" style="padding: 15px">
+            <address>XYZ<br>
+            ABC Street<br>
+            Bangaalore<br>
+            Karnataka-560008<br>
+            9876543210
+            </address>
+
+            <div class="col-xs-12" style="margin: 0px; padding: 0px;">
+                <center><button type="button" class="btn" onclick="window.location.href='address.html'" style="background-color: black; color: white; width: 100%; border-radius: 0px;"><i class="fas fa-plus-circle"></i>Add Address</button></center>
+            </div>
+        </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Ship to this Address</label>
+            </div>
+        
+            <br>
         <div class="row" style="box-shadow: 0 0 3px 2px #CACACA; margin: 0px; ">
             <div class="col-xs-4">
                 <img class="img-responsive" src="image/product4.JPG" style="margin: 20px 0px;">
@@ -41,7 +58,7 @@
                 <u><b>DENIM ABAYA 1</b></u><br><br>
                 <span>Color: Black & Gold Black inner Dress(full sleeve): M kaftan length: 52 inches(132cm) Matching Hijab and Band : Add Band : Add Band Matching Brooch : Add Brooch</span>
                 <br><br>
-                <span class="col-xs-6"><i class="fas fa-rupee-sign"></i>1780</span>
+                <span class="col-xs-4 col-sm-4"><i class="fas fa-rupee-sign"></i>1780</span>
                 <span class="col-xs-6 col-sm-3">
                     <div class="form-group">
                         <label for="inputdefault">QUANTITY:</label>
@@ -51,10 +68,10 @@
             </div>
         </div>
         <br>
-        
+       
         <div class="row">
             <div class="col-xs-12">
-                <u><b>PRICE DETAILS:</b></u><br><hr>
+                <u><b>PRICE DETAILS:</b></u><br><hr style="margin-top: 5px;">
                 <div class="col-xs-6">
                     <label>ITEM</label><hr>
                     <label>Total Payment</label>
@@ -65,14 +82,17 @@
                 </div>
             </div>
         </div>
-         
-        <div class="row" style="position: fixed; bottom: 0; width: 100%;">
-            <div class="col-xs-12" style="margin: 0px; padding: 0px;">
-                <button type="button" class="btn" onclick="window.location.href='checkout.html'" style="width: 100%; background-color: black; color: white; border-radius: 0px;">PROCEED TO CHECKED</button>
+            <br><br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-6" style="margin: 0px; padding: 0px;">
+                    <button type="button" class="btn" style="width: 100%; background-color: grey; color: white; border-radius: 0px;">Total (1) <br> <i class="fas fa-rupee-sign"></i>1780</button>
+                </div>
+                <div class="col-xs-6" style="margin: 0px; padding: 0px;">
+                    <button type="button" class="btn" onclick="window.location.href='payment.html'" style="width: 100%; background-color: black; color: white; border-radius: 0px;"><br>PAYMENT</button>
+                </div>
             </div>
         </div>
-
-
     </div>
 
 
